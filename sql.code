@@ -1,0 +1,14 @@
+CREATE DATABASE weather_db;
+USE weather_db;
+CREATE TABLE weather_data (
+    City VARCHAR(100),
+    Temperature FLOAT,
+    Humidity INT,
+    Pressure INT,
+    Weather VARCHAR(50),
+    Wind_Speed FLOAT
+);
+SHOW TABLES;
+USE weather_db;
+
+SELECT * FROM weather_data;
